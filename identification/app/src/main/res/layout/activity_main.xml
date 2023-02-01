@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/usernamebox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Username"
+        android:layout_margin="25dp"
+        />
+    <EditText
+        android:id="@+id/passwordbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:layout_margin="25dp"
+        />
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:text="LOG IN"
+        />
+    <Button
+        android:id="@+id/createbutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:text="CREATE NEW ACCOUNT"
+        />
+    <Button
+        android:id="@+id/displaybutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:text="DISPLAY ALL USERS"
+        />
+</LinearLayout>
